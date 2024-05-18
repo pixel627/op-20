@@ -15,9 +15,13 @@ add_executable(lab main.c
         libs/thread_io/thread_io.c
         libs/thread_io/thread_io.h
         libs/thread_io/thread_io_test.c
-        libs/thread_io/thread_io_test.h)
+        libs/thread_io/thread_io_test.h
+        app/9/main9.c
+        app/10/main10.c)
 
 add_subdirectory(libs)
+add_subdirectory(apps)
+
 target_link_libraries(lab data_structures)
 target_link_libraries(lab algorithms)
 target_link_libraries(lab string)
