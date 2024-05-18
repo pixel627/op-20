@@ -38,5 +38,6 @@ vectorVoid showVisitStats(char *stats);
 
 int submatricesNum(matrix *m);
 
+char* minStringNum(char *pattern);
 
 #endif //OP_20_THREAD_IO_H
